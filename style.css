@@ -2,12 +2,13 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial, sans-serif;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
 }
 
 body{
-background:#07152d;
-color:#ffffff;
+background:#081b33;
+color:#fff;
 line-height:1.7;
 }
 
@@ -15,20 +16,21 @@ line-height:1.7;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:20px 60px;
-background:#091b38;
+padding:20px 50px;
+background:#06152a;
 position:sticky;
 top:0;
+z-index:1000;
 }
 
 .logo{
 font-size:32px;
 font-weight:bold;
-color:#f5c542;
+color:#d4af37;
 }
 
 nav a{
-color:white;
+color:#fff;
 text-decoration:none;
 margin-left:25px;
 font-weight:bold;
@@ -36,7 +38,7 @@ transition:.3s;
 }
 
 nav a:hover{
-color:#f5c542;
+color:#d4af37;
 }
 
 .hero{
@@ -47,51 +49,24 @@ justify-content:center;
 align-items:center;
 text-align:center;
 padding:20px;
-background:linear-gradient(rgba(7,21,45,.75),rgba(7,21,45,.75)),
+background:linear-gradient(rgba(8,27,51,.75),rgba(8,27,51,.75)),
 url("https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1600&q=80");
 background-size:cover;
 background-position:center;
 }
 
 .hero h1{
-font-size:60px;
+font-size:58px;
 margin-bottom:20px;
+color:#fff;
 }
 
 .hero p{
-max-width:700px;
 font-size:22px;
-margin-bottom:30px;
+max-width:700px;
+margin-bottom:35px;
 }
 
 .btn{
-background:#f5c542;
-color:#07152d;
-padding:15px 35px;
-text-decoration:none;
-border-radius:8px;
-font-weight:bold;
-}
-
-section{
-padding:80px 60px;
-}
-
-h2{
-color:#f5c542;
-margin-bottom:20px;
-text-align:center;
-}
-
-.card{
-background:#10264a;
-padding:25px;
-margin:20px 0;
-border-radius:15px;
-}
-
-footer{
-background:#091b38;
-text-align:center;
-padding:25px;
-}
+display:inline-block;
+padding:15
