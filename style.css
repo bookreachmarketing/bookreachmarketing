@@ -1,73 +1,97 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
 }
 
 body{
-    background:#f5f9ff;
-    color:#333;
+background:#07152d;
+color:#ffffff;
+line-height:1.7;
 }
 
 .header{
-    background:#0056d6;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#091b38;
+position:sticky;
+top:0;
 }
 
 .logo{
-    color:white;
-    font-size:32px;
-    font-weight:bold;
+font-size:32px;
+font-weight:bold;
+color:#f5c542;
 }
 
 nav a{
-    color:white;
-    text-decoration:none;
-    margin-left:25px;
-    font-size:18px;
-    font-weight:bold;
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:bold;
+transition:.3s;
+}
+
+nav a:hover{
+color:#f5c542;
 }
 
 .hero{
-    background:linear-gradient(to right,#0056d6,#4da3ff);
-    color:white;
-    text-align:center;
-    padding:120px 20px;
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(rgba(7,21,45,.75),rgba(7,21,45,.75)),
+url("https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
 }
 
 .hero h1{
-    font-size:56px;
-    margin-bottom:20px;
+font-size:60px;
+margin-bottom:20px;
 }
 
 .hero p{
-    font-size:22px;
-    max-width:800px;
-    margin:auto;
+max-width:700px;
+font-size:22px;
+margin-bottom:30px;
 }
 
 .btn{
-    display:inline-block;
-    margin-top:40px;
-    background:white;
-    color:#0056d6;
-    padding:18px 40px;
-    border-radius:10px;
-    text-decoration:none;
-    font-weight:bold;
+background:#f5c542;
+color:#07152d;
+padding:15px 35px;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
 }
 
 section{
-    padding:80px 60px;
+padding:80px 60px;
 }
 
 h2{
-    color:#0056d6;
-    text-align:center;
-    font-size:42px;
-    margin-bottom:30px;
+color:#f5c542;
+margin-bottom:20px;
+text-align:center;
+}
+
+.card{
+background:#10264a;
+padding:25px;
+margin:20px 0;
+border-radius:15px;
+}
+
+footer{
+background:#091b38;
+text-align:center;
+padding:25px;
 }
